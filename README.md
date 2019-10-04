@@ -94,48 +94,19 @@
     </pre>
     <hr>
     <p>Java</p>
-    <pre>import java.io.*;  import java.util.*;  public class Main {      public static void main(String args[]) throws Exception {          Scanner cin=new Scanner(System.in);          int a = cin.nextInt(), b = cin.nextInt();          System.out.println(a+b);      }  }  </pre>
-    <hr>
-    <p>JavaScript （Node.js）</p>
-    <pre>const fs = require('fs')  const data = fs.readFileSync('/dev/stdin')  const result = data.toString('ascii').trim().split(' ').map(x =&gt; parseInt(x)).reduce((a, b) =&gt; a + b, 0)  console.log(result)  process.exit() // 请注意必须在出口点处加入此行  </pre>
-    <hr>
-    <p>Ruby</p>
-    <pre>
-    a,b=gets.split.map(&amp;:to_i)  
-    print a+b  
-    </pre>
-    <hr>
-    <p>PHP</p>
-    <pre>
-    &lt;?php  $input = trim(file_get_contents("php://stdin"));  l
-    ist($a, $b)=explode(' ', $input);  
-    echo $a + $b;  
-    </pre>
-    <hr>
-    <p>Rust</p>
-    <pre>use std::io;    fn main(){      let mut input=String::new();      io::stdin().read_line(&amp;mut input).unwrap();      let mut s=input.trim().split(' ');        let a:i32=s.next().unwrap()                 .parse().unwrap();      let b:i32=s.next().unwrap()                 .parse().unwrap();      println!("{}",a+b);  }  </pre>
-    <hr>
-    <p>Go</p>
-    <pre>package main    import "fmt"    func main() {      var a, b int      fmt.Scanf("%d%d", &amp;a, &amp;b)      fmt.Println(a+b)  }  </pre>
-    <hr>
-    <p>C# Mono</p>
-    <pre>using System;    public class APlusB{      private static void Main(){          string[] input = Console.ReadLine().Split(' ');          Console.WriteLine(int.Parse(input[0]) + int.Parse(input[1]));      }  }  </pre>
-    <hr>
-    <p>Visual Basic Mono</p>
-    <pre>Imports System    Module APlusB      Sub Main()          Dim ins As String() = Console.ReadLine().Split(New Char(){" "c})          Console.WriteLine(Int(ins(0))+Int(ins(1)))      End Sub  End Module  </pre>
-    <hr>
-    <p>Kotlin</p>
-    <pre>fun main(args: Array&lt;String&gt;) {      val (a, b) = readLine()!!.split(' ').map(String::toInt)      println(a + b)  }  </pre>
-    <hr>
-    <p>Haskell</p>
-    <pre>main = do      [a, b] &lt;- (map read . words) `fmap` getLine      print (a+b)  </pre>
-    <hr>
-    <p>Scala</p>
-    <pre>object Main extends App {      println(scala.io.StdIn.readLine().split(" ").map(_.toInt).sum)  }  </pre>
-    <hr>
-    <p>Perl</p>
-    <pre>my $in = &lt;STDIN&gt;;  chomp $in;  $in = [split /[\s,]+/, $in];  my $c = $in-&gt;[0] + $in-&gt;[1];  print "$c\n";</pre>
-  </div>
+    <pre>import java.io.*;  
+    import java.util.*;  
+    public class Main 
+    {      
+    	public static void main(String args[]) 
+	throws Exception 
+	{          
+		Scanner cin=new Scanner(System.in);          
+		int a = cin.nextInt(), b = cin.nextInt();          
+		System.out.println(a+b);      
+	}  
+     }     
+</pre>
 </div>
 
 </body>
