@@ -37,11 +37,9 @@
   <h2 data-v-af321868="">输入输出样例</h2>
   <div data-v-36768c72="" data-v-af321868="">
     <div data-v-89a1e792="" data-v-36768c72=""><strong data-v-89a1e792="">输入 #1</strong>
-        <button data-v-f3e1ca6a="" data-v-89a1e792="" type="button">复制</button>
       <pre data-v-89a1e792="">20 30  </pre>
     </div>
     <div data-v-89a1e792="" data-v-36768c72=""><strong data-v-89a1e792="">输出 #1</strong>
-        <button data-v-f3e1ca6a="" data-v-89a1e792="" type="button">复制</button>
       <pre data-v-89a1e792="">50  </pre>
     </div>
   </div>
@@ -49,7 +47,15 @@
   <div data-v-6156e5d2="" data-v-af321868="">
     <p>本题各种语言的程序范例：</p>
     <p>C</p>
-    <pre>#include &lt;stdio.h&gt;    int main() {      int a,b;      scanf("%d%d",&amp;a,&amp;b);      printf("%d", a+b);      return 0;  }  </pre>
+    <pre>#include &lt;stdio.h&gt;    
+    int main() 
+    {      
+    int a,b;      
+    scanf("%d%d",&amp;a,&amp;b);      
+    printf("%d", a+b);      
+    return 0;  
+    }  
+    </pre>
     <hr>
     <p>C++</p>
     <pre>#include &lt;iostream&gt;  #include &lt;cstdio&gt;    using namespace std;    int main() {      int a,b;      cin &gt;&gt; a &gt;&gt; b;      cout &lt;&lt; a+b;      return 0;  }  </pre>
