@@ -75,17 +75,23 @@
     <p>Pascal</p>
     <pre>
     var a, b: longint;  
-    	begin      
-    		readln(a,b);      
-    		writeln(a+b);  
-    	end.  
+    begin      
+    	readln(a,b);      
+    	writeln(a+b);  
+    end.  
     </pre>
     <hr>
     <p>Python2</p>
-    <pre>s = raw_input().split()  print int(s[0]) + int(s[1])  </pre>
+    <pre>
+    s=raw_input().split()  
+    print int(s[0]) + int(s[1])  
+    </pre>
     <hr>
     <p>Python3</p>
-    <pre>s = input().split()  print(int(s[0]) + int(s[1]))  </pre>
+    <pre>
+    s=input().split()  
+    print(int(s[0]) + int(s[1]))  
+    </pre>
     <hr>
     <p>Java</p>
     <pre>import java.io.*;  import java.util.*;  public class Main {      public static void main(String args[]) throws Exception {          Scanner cin=new Scanner(System.in);          int a = cin.nextInt(), b = cin.nextInt();          System.out.println(a+b);      }  }  </pre>
