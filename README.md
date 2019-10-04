@@ -94,10 +94,17 @@
     <pre>const fs = require('fs')  const data = fs.readFileSync('/dev/stdin')  const result = data.toString('ascii').trim().split(' ').map(x =&gt; parseInt(x)).reduce((a, b) =&gt; a + b, 0)  console.log(result)  process.exit() // 请注意必须在出口点处加入此行  </pre>
     <hr>
     <p>Ruby</p>
-    <pre>a, b = gets.split.map(&amp;:to_i)  print a+b  </pre>
+    <pre>
+    a,b=gets.split.map(&amp;:to_i)  
+    print a+b  
+    </pre>
     <hr>
     <p>PHP</p>
-    <pre>&lt;?php  $input = trim(file_get_contents("php://stdin"));  list($a, $b) = explode(' ', $input);  echo $a + $b;  </pre>
+    <pre>
+    &lt;?php  $input = trim(file_get_contents("php://stdin"));  l
+    ist($a, $b)=explode(' ', $input);  
+    echo $a + $b;  
+    </pre>
     <hr>
     <p>Rust</p>
     <pre>use std::io;    fn main(){      let mut input=String::new();      io::stdin().read_line(&amp;mut input).unwrap();      let mut s=input.trim().split(' ');        let a:i32=s.next().unwrap()                 .parse().unwrap();      let b:i32=s.next().unwrap()                 .parse().unwrap();      println!("{}",a+b);  }  </pre>
