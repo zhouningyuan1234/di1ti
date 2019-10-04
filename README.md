@@ -47,21 +47,39 @@
   <div data-v-6156e5d2="" data-v-af321868="">
     <p>本题各种语言的程序范例：</p>
     <p>C</p>
-    <pre>#include &lt;stdio.h&gt;    
+    <pre>
+    #include &lt;stdio.h&gt;    
     int main() 
     {      
-    int a,b;      
-    scanf("%d%d",&amp;a,&amp;b);      
-    printf("%d", a+b);      
-    return 0;  
+    	int a,b;      
+    	scanf("%d%d",&amp;a,&amp;b);      
+    	printf("%d", a+b);      
+    	return 0;  
     }  
     </pre>
     <hr>
     <p>C++</p>
-    <pre>#include &lt;iostream&gt;  #include &lt;cstdio&gt;    using namespace std;    int main() {      int a,b;      cin &gt;&gt; a &gt;&gt; b;      cout &lt;&lt; a+b;      return 0;  }  </pre>
+    <pre>
+	#include &lt;iostream&gt;  
+	#include &lt;cstdio&gt;    
+	using namespace std;    
+	int main() 
+	{      
+		int a,b;      
+		cin &gt;&gt; a &gt;&gt; b;      
+		cout &lt;&lt; a+b;      
+		return 0;  
+	}  
+    </pre>
     <hr>
     <p>Pascal</p>
-    <pre>var a, b: longint;  begin      readln(a,b);      writeln(a+b);  end.  </pre>
+    <pre>
+    var a, b: longint;  
+    	begin      
+    		readln(a,b);      
+    		writeln(a+b);  
+    	end.  
+    </pre>
     <hr>
     <p>Python2</p>
     <pre>s = raw_input().split()  print int(s[0]) + int(s[1])  </pre>
