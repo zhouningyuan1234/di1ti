@@ -10,7 +10,7 @@
         </style>
 </head>
 <body>
-	<center><h1 data-v-52820d90=""> P1001 A+B Problem</h1></center>
+	<center><h1> P1001 A+B Problem</h1></center>
 	<div>
 	  <h2 data-v-af321868="">题目描述</h2>
 	  <div data-v-6156e5d2="" data-v-af321868="">
@@ -108,6 +108,5 @@
 	     }     
 	</pre>
 	</div>
-
 </body>
 </html>
